@@ -1,0 +1,461 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+#price{
+  background-color: #111;
+}
+a {
+  color: #5383d3;
+}
+
+a:hover {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.section-bg {
+  background-color: #f6f7f6;
+}
+
+.section-title {
+  padding-bottom: 40px;
+  padding-left: 0;
+  align-content: left;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+} */
+.why-us .content {
+  padding: 30px;
+  background: #413F42;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.why-us .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.why-us .content p {
+  margin-bottom: 30px;
+}
+
+.why-us .content .more-btn {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.why-us .content .more-btn i {
+  font-size: 14px;
+}
+
+.why-us .content .more-btn:hover {
+  color: #413F42;
+  background: #fff;
+}
+
+.why-us .icon-boxes .icon-box {
+  text-align: center;
+  background: #fff;
+  padding: 40px 30px;
+  width: 100%;
+  border: 1px solid #eef0ef;
+}
+
+.why-us .icon-boxes .icon-box i {
+  font-size: 32px;
+  padding: 18px;
+  color: #5383d3;
+  margin-bottom: 30px;
+  background: #ecf9f0;
+  border-radius: 50px;
+}
+
+.why-us .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.why-us .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+body, html{
+	height: 100%;
+	width:100%;
+}
+body{
+	font-size: 1rem;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ========== Universal Stylings ========== */
+h1,h2,h3,h4,h5{
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+}
+h6{
+	position: relative;
+}
+.bg-primary{
+	background-color: #B47F41!important;
+}
+.bg-dark{
+	background-color: #0f0a05!important;
+}
+.bg-white{
+	background-color: #fff;
+}
+.text-inverse{
+	color: #074052;
+}
+.text-primary{
+	color: #B47F41!important;
+}
+a.text-primary{
+	color: #B47F41;
+}
+a.text-primary:hover{
+	color: #916634!important;
+	text-decoration: none;
+}
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 600;
+	
+}
+.btn-primary{
+	background-color: #B47F41;
+	border-color: #B47F41;
+}
+.btn-primary:hover,.btn-primary:focus{
+	background-color: #916634;
+	border-color: #916634;
+}
+.btn-capsul{
+	border-radius: 50px;
+}
+.text-underline-white:before{
+	content:"";
+	position: absolute;
+	width:100px;
+	height: 4px;
+	left:50%;
+	margin-left:-50px;
+	background:#fff;
+	bottom: -15px;
+	border-radius: 10px;
+}
+.text-underline-rb-white:before{
+	content:"";
+	position: absolute;
+	width:100px;
+	height: 4px;
+	left:0;
+	background:#fff;
+	bottom: -15px;
+	border-radius: 10px;
+}
+.text-underline-primary:before{
+	content:"";
+	position: absolute;
+	width:50px;
+	height: 4px;
+	left:50%;
+	margin-left:-25px;
+	background:#35CBDF;
+	bottom: -15px;
+	border-radius: 10px;
+}
+.text-underline-rb-primary:before{
+	content:"";
+	position: absolute;
+	width:100px;
+	height: 4px;
+	left:0;
+	background:#35CBDF;
+	bottom: -15px;
+	border-radius: 10px;
+}
+.bg-overlay:before{
+	content:"";
+	background:rgba(0,0,0,0.7);
+	position: absolute;
+	height: 100%;
+	width:100%;
+	left:0;
+	top:0;
+	z-index: -1;
+}
+.bg-overlay-primary:before{
+	content:"";
+	background:rgba(49,31,10,0.5);
+	position: absolute;
+	height: 100%;
+	width:100%;
+	left:0;
+	top:0;
+	z-index: -1;
+}
+.bg-right{
+	background:url("https://grafreez.com/wp-content/temp_demos/razor/img/sec-bg-01.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+/* ========== Intro Header ========== */
+.intro{
+	float: left;
+	width:100%;
+	display: flex;
+	align-items:center;
+	height:100%;
+	position: relative;
+	z-index: 1;
+}
+.info{
+    float: left;
+	width:100%;
+	display: flex;
+	align-items:center;
+	height:100%;
+	position: relative;
+	z-index: 1;
+}
+.intro.intro-small{
+	height: 60%;
+}
+.intro-bg{
+    background-image: url("img.jpeg");
+    /* background-color: rgba(0,0,0,0.6); */
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size:cover;
+}
+.caption-container{
+	width:50rem;
+	margin:0 auto;
+}
+.caption-two-panel{
+	display: flex;
+	align-items:center;
+}
+
+
+.intro h1{
+	font-weight: 700;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 3.8rem;
+}
+
+.intro-caption .btn i{
+	float: center;
+	margin-right:15px;
+}
+.intro .carousel-item{
+	height: 100vh;
+}
+.intro .carousel-item::before{
+	content:"";
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	width:100%;
+	height: 100vh;
+}
+.intro  .carousel-caption{
+	top:25%;
+}
+
+/* ========== Who We Are ========== */
+
+.info-section{
+	float: left;
+	width:100%;
+	padding:5rem 0;
+	position: relative;
+	z-index: 1;
+}
+.info-section h2{
+	font-weight: 700;
+	font-size: 3rem;
+}
+.info-section .price-count{
+	font-size: 2.5rem;
+}
+
+.info-section .head-sec{
+	float: left;
+	width:100%;
+}
+
+.info-section .service-block-bg{
+	background-color: rgba(180,127,65,0.4);
+}
+.info-section .service-block-bg:hover{
+	background-color: rgba(180,127,65,1);
+}
+
+.info-section h3{
+	font-size: 1.4rem;
+}
+.info-section p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+.info-section .box h2{
+    font-size:24px;
+    margin-bottom:20px;
+    margin-top:0;
+}
+
+.info-section .box i{
+    font-size:20px;
+}
+.info-section .box{
+    display:flex;
+}
+.info-section .text-box{
+    flex:1 1 0;
+    text-align:left;
+}
+.info-section .icon-box{
+    line-height: 1.2;
+    width:70px;
+}
+.info-section .service-block-overlay{
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+}
+.info-section .service-block-overlay:hover{
+	background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-top: -10px;
+    position: relative;
+    width: 100%;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+}
+.info-section .service-block i img{
+	width:50px;
+}
+
+/*--- three Block Panel ---*/
+.three-panel-block{
+	float: left;
+	width: 100%;
+}
+.three-panel-block i{
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+}
+.three-panel-block i.box-round{
+	border-color: inherit;
+	border-width: 1px;
+	border-style:solid;
+	padding:16px;
+	border-radius: 50%;
+}
+
+/*--- Two Block Panel ---*/
+.two-panel-block{
+	float: left;
+	width: 100%;
+}
+.two-panel-block p{
+	font-size:16px;
+}
+
+
+/*--- Two Block Panel ---*/
+.four-panel-block{
+	float: left;
+	width:100%;
+}
+
+/* ========== Who We Are ========== */
+.widget{
+	float: left;
+	width:100%;
+	position: relative;
+	z-index: 1;
+}
+
+/* ========== Copy Content Styles ========== */
+.copy-content-sec{
+	float: left;
+	width:100%;
+	padding:5rem 0;
+	position: relative;
+	z-index: 1;
+}
+.copy-container{
+	display: flex;
+	align-items: center;
+}
+/* ========== Testimonial Section ========== */
+.testimonial-section{
+	float: left;
+	width:100%;
+	position: relative;
+	z-index: 1;
+}
+.testimonial-section h2{
+	font-size: 3rem;
+}
+
+/* ========== Price Table Styles ========== */
+.price-section{
+	float: left;
+	width:100%;
+	padding:5rem 0;
+	position: relative;
+	z-index: 1;
+}
+.price-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+/* .price-section .price-block{
+
+} */
+.price-section .currency{
+	font-size: 25px;
+    vertical-align: super;
+}
+.price-section .price-count{
+	font-size: 60px;
+	line-height: 60px;
+}
+.price-section .price-block small{
+	display: block;
+	font-size: 15px;
+}
